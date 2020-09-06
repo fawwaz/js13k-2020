@@ -1,7 +1,16 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "build": "lerna exec -- rollup -c=./rollup.config.js"
+  },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-typescript": "^5.0.2",
+    "lerna": "^3.22.1",
+    "rollup": "^2.26.10",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.0.1",
+    "typescript": "^4.0.2"
   }
 }
