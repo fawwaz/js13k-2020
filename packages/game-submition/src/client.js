@@ -1,1 +1,1 @@
-export * from "game-client";
+export * from "@fawwaz/game-client";

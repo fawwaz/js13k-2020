@@ -1,9 +1,10 @@
 {
-  "name": "game-client",
+  "name": "@fawwaz/game-client",
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup -w -c ./rollup.config.js"
   },
   "main": "dist/index.js",
   "files": [
@@ -11,5 +12,13 @@
   ],
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.9.49",
+    "@types/socket.io-client": "^1.4.33",
+    "socket.io": "^2.3.0"
+  },
+  "dependencies": {
+    "hyperapp": "^2.0.8"
+  }
 }

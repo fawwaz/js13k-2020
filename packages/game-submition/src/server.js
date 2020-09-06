@@ -1,1 +1,1 @@
-export * from "game-server";
+export * from "@fawwaz/game-server";

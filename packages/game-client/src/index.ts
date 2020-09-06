@@ -1,2 +1,10 @@
-const multiplication = (a, b) => a * b;
-console.log("this is CLient !!!", multiplication(3, 4));
+import { app } from "hyperapp";
+import Screen from "components/screen";
+
+app({
+  init: {
+    counter: 0,
+  },
+  view: Screen,
+  node: document.getElementById("app"),
+});
